@@ -1,0 +1,8 @@
+{
+        "rewrites": [
+          {
+            "source": "/category/:_id",
+            "destination": "/category?_id=:_id"
+          }
+        ]
+}

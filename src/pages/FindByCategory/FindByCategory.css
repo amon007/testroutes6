@@ -1,0 +1,36 @@
+.menuBtn{
+    display: none !important;
+}
+
+@media (max-width:790px) {
+    .titleCateg{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1000px) {
+    .menuBtn{
+        display: flex !important;
+    }
+    .menuBar{
+        position: fixed;
+        z-index: 1000 !important;
+        left: 20px;
+    }
+    .leftBlok{
+        display: none !important;
+    }
+    .active{
+        position: fixed !important;
+        width: 100% !important;
+        height: 300px !important;
+        margin-top: 50px;
+        z-index: 1000 !important;
+    }
+    .blok{
+        display: none;
+    }
+    .products{
+        margin-top: 30px;
+    }
+}

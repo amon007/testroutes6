@@ -1,0 +1,26 @@
+@media (max-width: 890px) {
+  .topHeader {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 690px) {
+  .topHeader {
+    font-size: 14px !important;
+  }
+  .hasce {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .topHeader {
+    font-size: 8px !important;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hCont {
+    display: none !important;
+  }
+}

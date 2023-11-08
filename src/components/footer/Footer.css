@@ -1,0 +1,21 @@
+@media (max-width:980px) {
+    .fAllFonts{
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:870px) {
+    .fAllFonts{
+        font-size: 8px !important;
+    }
+    .fInputBlock{
+        width: 240px;
+    }
+}
+
+@media (max-width:650px) {
+    .fAll{
+        display: flex;
+        flex-direction: column;
+    }
+}
